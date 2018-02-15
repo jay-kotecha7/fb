@@ -8,7 +8,13 @@
 module.exports = {
 
   attributes: {
-    facebookid:{
+    userId:{
+      type:'string'
+    },
+    username:{
+      type:'string'
+    },
+    provider:{
       type:'string'
     }
   }
